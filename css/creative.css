@@ -213,7 +213,9 @@ header .header-content .header-content-inner p {
 
 header .header-content .header-content-inner .btn {
     margin-bottom: 40px;
+    margin-right: 10px;
     font-weight: 300;
+    width: 20%;
 }
 
 @media (min-width: 768px) {
