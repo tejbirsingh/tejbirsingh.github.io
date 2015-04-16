@@ -463,6 +463,12 @@ fieldset[disabled] .btn-primary.active {
     border-color: rgba(255, 255, 255, .7);
 }
 
+.btn-translucent:hover, .btn-translucent:focus, .btn-translucent:active, .btn-translucent.active{
+    color: inherit;
+    background-color: rgba(0, 0, 0, .5);
+    border-color: rgba(255, 255, 255, .9);
+}
+
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
@@ -487,12 +493,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
-}
-
-.gh.hvr-icon-float-away:before, .gh .hvr-icon-float-away:after {
-    content: "\f09b";
-}
-
-.li.hvr-icon-float-away:before, .li.hvr-icon-float-away:after {
-    content: "\f0e1";
 }
