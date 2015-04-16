@@ -488,3 +488,11 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+.gh.hvr-icon-float-away:before, .gh .hvr-icon-float-away:after {
+    content: "\f09b";
+}
+
+.li.hvr-icon-float-away:before, .li.hvr-icon-float-away:after {
+    content: "\f0e1";
+}
